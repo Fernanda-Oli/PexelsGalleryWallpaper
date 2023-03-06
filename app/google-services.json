@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "300224699557",
+    "project_id": "pexelsgallerywallpaper",
+    "storage_bucket": "pexelsgallerywallpaper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300224699557:android:e989727a185ef8041bc14c",
+        "android_client_info": {
+          "package_name": "com.example.pexelsgallerywallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300224699557-ahqs140afki1c37cq3nj508agi3mb3iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuXGzeu1byEuTWECoW23kQkJFSKuL_USw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300224699557-ahqs140afki1c37cq3nj508agi3mb3iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300224699557:android:e14cbdb86f9a64d21bc14c",
+        "android_client_info": {
+          "package_name": "com.example.pexelsgallerywallpaper.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300224699557-ahqs140afki1c37cq3nj508agi3mb3iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuXGzeu1byEuTWECoW23kQkJFSKuL_USw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300224699557-ahqs140afki1c37cq3nj508agi3mb3iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300224699557:android:b29a287783f0ccf21bc14c",
+        "android_client_info": {
+          "package_name": "com.example.pexelsgallerywallpaper.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300224699557-ahqs140afki1c37cq3nj508agi3mb3iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuXGzeu1byEuTWECoW23kQkJFSKuL_USw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300224699557-ahqs140afki1c37cq3nj508agi3mb3iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
