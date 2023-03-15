@@ -10,12 +10,14 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.pexelsgallerywallpaper.databinding.FragmentPopularBinding
 import com.example.pexelsgallerywallpaper.framework.util.animationCancel
 import com.example.pexelsgallerywallpaper.framework.util.pulseAnimation
 import com.example.pexelsgallerywallpaper.ui.fragment.adapter.photoadapter.PhotoAdapter
+import com.example.pexelsgallerywallpaper.ui.fragment.main.MainFragmentDirections
 import com.example.pexelsgallerywallpaper.ui.fragment.popular.viewmodel.PopularViewModel
 import com.feandrade.core.model.PhotoDomain
 import dagger.hilt.android.AndroidEntryPoint
@@ -85,6 +87,7 @@ class PopularFragment : Fragment() {
     }
 
     private fun detail(photoDomain: PhotoDomain){
-
+        val data = arrayOf(photoDomain.srcDomain.original, photoDomain.description)
+        findNavController().navigate(MainFragmentDirections.actionMainFragmentToDownloadFragment(data))
     }
 }
